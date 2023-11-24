@@ -10,6 +10,6 @@ It's not perfect but I enjoyed the simplicity of the idea.
 
 ![](Dino.png)
 
-The program outputs spans enclosed in paragraphs. Each span has the start time of the audio in the data-time attribute. The client Javascript finds the span with the greatest time less than the current playback time.
+The program outputs spans enclosed in paragraphs. Each span has the start time of the audio in the data-time attribute. The client side Javascript finds the span with the greatest time less than the current playback time.
 
 Wikipedia Dino transcription from [here](https://en.wikipedia.org/wiki/File:Dinosaur.ogg)
