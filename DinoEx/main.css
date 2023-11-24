@@ -1,0 +1,80 @@
+body {
+  font-family: "Helvetica Neue", Helvetica;
+  margin: 10px;
+}
+
+.otherPagesContainer {
+  max-width: 100%;
+  width: 450px;
+  font-size: 24px;
+}
+
+iframe {
+  max-width: 100%;
+  width: 450px;
+}
+
+.highlightLyrc {
+  background-color: #a1d2ec !important;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  gap: 20px;
+}
+
+.linkImg {
+  max-width: 100%;
+  width: 450px;
+}
+
+h1 {
+  text-decoration: underline;
+  text-align: center;
+}
+
+.cellImage {
+  width: 80vw;
+  max-width: 300px;
+}
+
+.mainText {
+  max-width: 100%;
+  width: 450px;
+  font-size: 24px;
+}
+
+.otherPages {
+  font-size: 24px;
+}
+
+.linkPreviewCont {
+  margin: 20px 0;
+  border-radius: 5px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  display: flex;
+  padding: 10px;
+  gap: 10px;
+  min-height: 80px;
+  .linkImage {
+    width: 50%;
+    max-width: 600px;
+    object-fit: contain;
+  }
+  .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 2px;
+    .title {
+      font-size: 15px;
+    }
+    .desc {
+      font-weight: bold;
+      font-size: 15px;
+    }
+  }
+}
